@@ -2,6 +2,32 @@
 
 body {
   background: #111111;
-  color: #888888;
+  color: #dddddd;
   font-family: sans-serif;
+  max-width: 650px;
+  font-size: 28px;
+}
+a {
+  color: #dddddd;
+}
+
+/* Small */
+@media (width <= 600px) {
+  .example {
+    background: red;
+  }
+}
+
+/* Medium */
+@media (width >= 600px) {
+  .example {
+    background: green;
+  }
+}
+
+/* Large */
+@media (width >= 900px) {
+  .example {
+    background: blue;
+  }
 }
