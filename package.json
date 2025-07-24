@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "live-server": "^1.2.2"
-  },
-    "scripts": {
-        "start": "./node_modules/live-server/live-server.js --no-browser"
-    }
-}

@@ -1,4 +1,3 @@
-
 # bravo-site
 
 Website of Jordan Bravo
@@ -7,10 +6,10 @@ Built with HTML and CSS only.
 
 ## Setup
 
-Make sure `node` is installed.
+If nix and direnv are installed:
 
-Run `npm i`.
+- Decide on a port, e.g. 5555
+- Run `live-server --port 5555`
+- Open browser to `localhost:5555`
 
-Run `npm start`.
-
-Open browser to `localhost:8080`
+Note: uses `nixpkgs#live-server`.
